@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+
+@import url('https://fonts.googleapis.com/css?family=Lobster|Shadows+Into+Light');
+@import url('https://fonts.googleapis.com/css?family=Nanum+Myeongjo');
+body{
+    width: 1350px;
+    float: left;
+    background-repeat: no-repeat; 
+    background-size: cover;
+    margin-left: 0px;
+    
+}
+.navbar-default .navbar-brand{
+    color: black;
+}
+#login{
+    min-width: 250px;
+    background-color: rgba(255,255,255,.7);
+    padding: 14px 14px 0px;
+    overflow: hidden;
+}
+#login .social-button{
+    margin: 12px 0px;
+}
+.navbar-default {
+    opacity: 0.9;
+}
+.navbar-brand{
+    font-family: 'Lobster', cursive;
+    color: red;
+}
+.cursive{
+    font-family: 'Lobster', cursive;
+    color: orange;
+    font-size: 19px;
+    text-decoration: none;
+}
+.center{
+    margin-left: 300px;
+    margin-top: 200px;
+}
+.gap{
+    margin-left: 100px;
+    padding: 30px;
+    padding-right: 200px;
+    border-radius: 20px;
+    opacity: 0.9;
+     margin-top: 35px;
+}
+.gap1{
+    margin-left: 340px;
+    padding: 30px;
+    padding-right: 200px;
+    border-radius: 20px;
+    opacity: 0.9;
+     margin-top: 35px;
+}
+.red1{
+    color: white;
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 25px;
+    text-shadow: 2px 2px #FF0000;
+}
+#cen{
+    margin-left: 100px;
+    padding: 20px;
+    padding-right: 30px;
+}
+.submit{
+    padding: 15px;
+    padding-right: 50px;
+    text-align: center;
+    font-family: monospace;
+    padding-left: 50px;
+    margin-left: 500px;
+    margin-top: 40px;
+    box-sizing: border-box;
+    border: 20%;
+    color: yellow;
+    text-shadow: 2px 2px #FF0000;
+}
+.center{
+    margin-left: 300px;
+    margin-top: 100px;
+}
