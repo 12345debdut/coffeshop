@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+
+@import url('https://fonts.googleapis.com/css?family=Lobster|Shadows+Into+Light');
+@import url('https://fonts.googleapis.com/css?family=Nanum+Myeongjo');
+.navbar-default .navbar-brand{
+    color: black;
+}
+#login{
+    min-width: 250px;
+    background-color: rgba(255,255,255,.7);
+    padding: 14px 14px 0px;
+    overflow: hidden;
+}
+#login .social-button{
+    margin: 12px 0px;
+}
+.navbar-default {
+    opacity: 0.9;
+}
+.navbar-brand{
+    font-family: 'Lobster', cursive;
+    color: red;
+}
+.cursive{
+    font-family: 'Lobster', cursive;
+    color: orange;
+    font-size: 19px;
+}
+body{
+    background-image:url(images/background1.jpg);
+    width: 1350px;
+    float: left;
+    background-repeat: no-repeat; 
+    background-size: cover;
+    margin-left: 0px;
+}
+.center{
+    margin-left: 500px;
+    margin-top: 100px;
+}
+.gap{
+    margin-left: 100px;
+    padding: 25px;
+    padding-right: 100px;
+    border-radius: 20px;
+    opacity: 0.9;
+     margin-top: 35px;
+}
+.gap1{
+    margin-left: 105px;
+    padding: 25px;
+    padding-right: 100px;
+    border-radius: 20px;
+    opacity: 0.9;
+     margin-top: 35px;
+}
+.gap2{
+    margin-left: 140px;
+    padding: 25px;
+    padding-right: 100px;
+    border-radius: 20px;
+    opacity: 0.9;
+     margin-top: 35px;
+}
+.gap3{
+    margin-left: 118px;
+    padding: 25px;
+    padding-right: 100px;
+    border-radius: 20px;
+    opacity: 0.9;
+     margin-top: 35px;
+}
+.gap4{
+    margin-left: 59px;
+    padding: 25px;
+    padding-right: 100px;
+    border-radius: 20px;
+    opacity: 0.9;
+     margin-top: 35px;
+}
+.gap5{
+    margin-left: 12px;
+    padding: 25px;
+    padding-right: 100px;
+    border-radius: 20px;
+    opacity: 0.9;
+    margin-top: 35px;
+}
+.red1{
+    color: white;
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 20px;
+    text-shadow: 2px 2px #FF0000;
+}
+#cen{
+    margin-left: 200px;
+    padding: 20px;
+    padding-right: 30px;
+}
+.submit{
+    padding: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: transparent;
+    margin-left: 250px;
+    margin-top: 40px;
+    color:orange;
+}
+.submit1{
+    padding: 10px;
+    margin-top: -20px;
+    margin-left: 250px;
+    color: orange;
+    background-color: transparent;
+}
