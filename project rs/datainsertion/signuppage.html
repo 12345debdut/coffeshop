@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" media="screen" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.min.css">
+	<link rel="stylesheet" href="signuppage.css">
+
+	<title>Minimum Bootstrap HTML Skeleton</title>
+
+	<!--  -->
+
+	<style>
+
+	</style>
+
+</head>
+
+<body>
+
+<div class="may">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand cursive" href="#">COFFE SHOP</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active cursive"><a href="#" style="color: orange">Home<span class="sr-only">(current)</span></a></li>
+        <li class="cursive"><a href="#" style="color: orange">Services</a></li>
+        <li class="cursive"><a href="#" style="color: orange">Contact us</a></li>
+        <li class="cursive"><a href="#" style="color: orange">Portfolio</a></li>
+      </ul>
+      
+      <ul class="nav navbar-nav navbar-right">
+        <li class="cursive"><a href="#" style="color: orange">Sign up</a></li>
+          <ul class="nav navbar-nav navbar-right">
+        <li class="cursive"><a href="#" style="color: orange">log in</a></li>
+          </ul>
+      </ul>
+    </div>
+    </div>
+    </div>
+    <div class="center">
+       <form action="signpage.php" method="post">
+           <span class="red1"><strong>FIRST NAME:</strong></span> <input class="gap" type="text" name="fname" value="" placeholder="FIRST NAME" required><br>
+           <br>
+           <span class="red1"><strong>LAST NAME:</strong></span><input type="text" name="lname" value="" class="gap1" placeholder="LAST NAME" required><br><br>
+           <span class="red1"><strong>EMAIL ID</strong></span><input type="text" name="emailid" value="" class="gap2" placeholder="EMAIL ID" required><br><br>
+           <span class="red1"><strong>PHONE NO:</strong></span><input type="text" name="phonenumber" value="" class="gap3" placeholder="PHONE NO." required><br><br>
+           <span class="red1"><strong>NEW PASSWORD:</strong></span><input type="password" name="newpassword" value="" class="gap4" placeholder="SUITABLE PASSWORD" required><br><br>
+           <span class="red1"><strong>CONFIRM PASSWORD:</strong></span> <input type="password" name="conpassword" value="" class="gap5" placeholder="GIVE THE PASSWORD AGAIN" required><br><br>
+           <input type="submit" name="submit" value="submit" class="submit" style="border:2px solid orange;" >
+       </form>
+        <form enctype="multipart/form-data" action="upload_db.php" method="POST"><span class="red1">
+            course Name</span><input type="text" name="cname" />
+        <input type="hidden" name="MAX_FILE_SIZE" value="2000000"/><br><span class="red1">
+            Choose a file to upload:</span> <input name="uploadedfile" type="file" class="submit1"/><br>
+        <input type="submit" value="Upload File" class="submit1" style="border:2px solid orange;"/>
+        </form>
+    </div>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+	<script>
+	</script>
+
+</body>
+
+</html>
